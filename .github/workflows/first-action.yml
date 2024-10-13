@@ -1,0 +1,10 @@
+name: Primeiro Workflow
+on: workflow_dispatch
+jobs:
+  primerio-servico:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Saudações
+        run: echo "Hello World"
+      - name: Print Tchau
+        run: echo "Done - bye!"
